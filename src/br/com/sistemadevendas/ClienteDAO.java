@@ -8,7 +8,7 @@ public class ClienteDAO {
 
         public void create(Cliente c) {
             clientes.add(c);
-                System.out.println("Cliente cadastrado! ");
+                System.out.println(" Cliente cadastrado!");
         }
 
         public void read() {

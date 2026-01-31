@@ -6,10 +6,10 @@ public class Cliente {
     private String nome;
     private String email;
 
-        public Cliente(int id, String email, String nome) {
+        public Cliente(int id, String nome, String email) {
             this.id = id;
-            this.email = email;
             this.nome = nome;
+            this.email = email;
         }
 
     public int getId() {
@@ -32,9 +32,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "email='" + email + '\'' +
-                ", nome='" + nome + '\'' +
-                '}';
+        return "Cliente [ID = " + id + ", Nome = " + nome + ", E-mail = " + email + "]";
     }
 }
