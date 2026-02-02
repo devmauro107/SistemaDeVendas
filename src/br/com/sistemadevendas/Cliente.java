@@ -31,7 +31,13 @@ public class Cliente {
     }
 
     @Override
-    public String toString() {
-        return "Cliente [ID = " + id + ", Nome = " + nome + ", E-mail = " + email + "]";
+        public String toString() {
+            return "Cliente [ID = "
+                    + id
+                    + ", Nome = "
+                    + nome
+                    + ", E-mail = "
+                    + email
+                    + "]";
     }
 }

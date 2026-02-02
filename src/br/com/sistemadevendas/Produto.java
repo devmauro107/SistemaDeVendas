@@ -31,11 +31,14 @@ public class Produto {
     }
 
     @Override
-    public String toString() {
-        return "Produto [" +
-                " ID = " + id +
-                ", Nome = " + nome +
-                ", Preço = R$ " + preco +
-                "]";
+        public String toString() {
+            return "Produto ["
+                    + " ID = "
+                    + id
+                    + ", Nome = "
+                    + nome
+                    + ", Preço = R$ "
+                    + preco
+                    + "]";
     }
 }
